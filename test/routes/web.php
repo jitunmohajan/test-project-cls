@@ -13,8 +13,12 @@
 
 
 Route::get('/','HomeController@home');
+Route::get('/index','HomeController@index');
 Route::get('/login','HomeController@login');
 Route::post('loginstore', 'Homecontroller@postLogin');
  
 Route::get('logout', 'HomeController@logout');
 Route::get('/register','HomeController@register');
+Route::post('store', 'Homecontroller@store');
+
+
