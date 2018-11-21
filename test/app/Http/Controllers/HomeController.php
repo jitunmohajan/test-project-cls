@@ -58,36 +58,17 @@ class HomeController extends Controller
     	}
     }
 
-    
+    public function logout(Request $request)
+    {
+        $request->session()->flush();
+        //return redirect()->route('login');
+        return redirect('login');
+    }
+ 
 
        
 }
 /*
-public function logout(Request $request)
-   	{
-   		$request->session()->flush();
-   		return redirect()->route('login');
-       }
-       public function register(){
-           return view('pages.register');
-       }
-       public function posRegister(Request $request){
-        //echo 'welcome';
-       
-        $name = $request->name;//firstname =username
-        $email = $request->email;
-        $password=$request->password;
-
-        DB::table('users')->insert([
-            ['name' => $name],
-            ['password' => $password],
-            ['email' => $email]
-        ]);
-        
-      
-         echo 'Successfully saved';
-      
-    }
 */
 /*
 

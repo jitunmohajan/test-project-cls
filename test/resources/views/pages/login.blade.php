@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Jitun Mohajan</title>
+    <title>My Project</title>
 <link href="{{asset('LoginBackend')}}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{asset('LoginBackend')}}/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
     <link href="{{asset('LoginBackend')}}/dist/css/sb-admin-2.css" rel="stylesheet">
